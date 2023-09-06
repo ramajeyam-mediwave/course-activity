@@ -104,7 +104,26 @@ body {
   background-color: #0068ff;
   border-radius: 15px;
   padding: 18px;
+  margin-bottom: 15px;
 }
+.card2{
+    background-color: #cf74ff;
+    border-radius: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+}
+.card3{
+        background-color: #fadb39;
+        border-radius: 15px;
+        padding: 18px;
+        margin-bottom: 15px;
+    }
+.card4{
+        background-color: #ed7071;
+        border-radius: 15px;
+        padding: 18px;
+        margin-bottom: 15px;
+    }
 .flex-layout {
   display: flex;
   justify-content: space-between;
@@ -151,7 +170,7 @@ p {
 .progess{
     margin-top: 22px;
     margin-left: 10px;
-    background-color: white;
+    background-color: grey;
     height: 8px;
     width: 370px;
     border-radius: 20px;
@@ -163,10 +182,43 @@ p {
 .progress-grey{
     margin-top: 22px;
     margin-left: 10px;
-    background-color:grey;
+    background-color:white;
     height: 8px;
     width: 200px;
     border-radius: 20px;
     margin-top: 0px;
     margin-left: 0px;
+}
+.total-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.back-img,.notification-img{
+    width: 50px;
+    height: 50px;
+}
+.top-learning{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+    
+.student{
+    color: #0068ff;
+}
+.profile{
+    justify-content: right;
+    display: flex;
+    
+}
+.right-side{
+
+}
+
+.learn-background{
+    color: #a2a9c8;
+    padding-left: 35px;
+    
 }
