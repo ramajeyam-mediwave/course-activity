@@ -106,24 +106,24 @@ body {
   padding: 18px;
   margin-bottom: 15px;
 }
-.card2{
-    background-color: #cf74ff;
-    border-radius: 15px;
-    padding: 18px;
-    margin-bottom: 15px;
+.card2 {
+  background-color: #cf74ff;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 15px;
 }
-.card3{
-        background-color: #fadb39;
-        border-radius: 15px;
-        padding: 18px;
-        margin-bottom: 15px;
-    }
-.card4{
-        background-color: #ed7071;
-        border-radius: 15px;
-        padding: 18px;
-        margin-bottom: 15px;
-    }
+.card3 {
+  background-color: #fadb39;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 15px;
+}
+.card4 {
+  background-color: #ed7071;
+  border-radius: 15px;
+  padding: 18px;
+  margin-bottom: 15px;
+}
 .flex-layout {
   display: flex;
   justify-content: space-between;
@@ -136,7 +136,6 @@ body {
   height: 155px;
   padding-right: 10px;
 }
-
 .number {
   background-color: white;
   height: 40px;
@@ -150,12 +149,10 @@ body {
 p {
   color: white;
 }
-
 .enroll-twelve p {
   padding-top: 15px;
   padding-right: 5px;
 }
-
 .foot {
   display: flex;
   align-items: center;
@@ -167,58 +164,149 @@ p {
   align-items: center;
   margin-top: 22px;
 }
-.progess{
-    margin-top: 22px;
-    margin-left: 10px;
-    background-color: grey;
-    height: 8px;
-    width: 370px;
-    border-radius: 20px;
-
+.progess {
+  margin-top: 22px;
+  margin-left: 10px;
+  background-color: grey;
+  height: 8px;
+  width: 370px;
+  border-radius: 20px;
 }
-.enroll-white img{
-    padding-bottom: 5px;
+.enroll-white img {
+  padding-bottom: 5px;
 }
-.progress-grey{
-    margin-top: 22px;
-    margin-left: 10px;
-    background-color:white;
-    height: 8px;
-    width: 200px;
-    border-radius: 20px;
-    margin-top: 0px;
-    margin-left: 0px;
+.progress-grey {
+  margin-top: 22px;
+  margin-left: 10px;
+  background-color: white;
+  height: 8px;
+  width: 200px;
+  border-radius: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
 }
-.total-div{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    
+.total-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-.back-img,.notification-img{
-    width: 50px;
-    height: 50px;
+.back-img,
+.notification-img {
+  width: 50px;
+  height: 50px;
 }
-.top-learning{
-    padding: 50px 30px;
-    display: flex;
-    justify-content: space-between;
-    
+.top-learning {
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
 }
-    
-.student{
-    color: #0068ff;
+.student {
+  color: #0068ff;
 }
-.profile{
-    justify-content: right;
-    display: flex;
-    
+.profile {
+  justify-content: right;
+  display: flex;
 }
-.right-side{
-
+.right-side {
 }
-
-.learn-background{
-    color: #a2a9c8;
-    padding-left: 35px;
-    
+.learn-background {
+  color: #a2a9c8;
+  padding-left: 35px;
+}
+.learning-icon {
+  width: 50px;
+  height: 50px;
+  padding-left: 35px;
+}
+.percent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.learning-text span {
+  color: #a2a9c8;
+}
+.learning-text {
+  padding: 30px;
+  padding-right: 220px;
+}
+.progress-bar-target {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#ed7071 53%, white 0);
+  margin-right: 46px;
+}
+.progress-bar-target::before {
+  content: "53%";
+}
+.complete-web {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+}
+.progress-bar-web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#0068ff 75%, white 0);
+  margin-right: 46px;
+}
+.progress-bar-web::before {
+  content: "75%";
+}
+.progress-bar-grow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(closest-side, white 79%, transparent 80% 100%),
+    conic-gradient(#cf74ff 14%, white 0);
+  margin-right: 46px;
+}
+.progress-bar-grow::before {
+  content: "14%";
+}
+.grow-community {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+}
+.planning {
+  display: flex;
+  color: #a2a9c8;
+  padding-left: 40px;
+}
+.planning .left-arrow {
+  padding-left: 30px;
+  border-radius: 20px;
+}
+.planning .right-arrow {
+  padding: 0px 0px;
+}
+.cal-label {
+  padding: 20px 40px;
+  color: #a2a9c8;
+  display: flex;
+  justify-content: space-between;
+}
+span {
+  display: ;
+  justify-content: space-around;
+}
+@media (max-width: 480px) {
+  .total-div {
+    grid-template-columns: 1fr;
+  }
 }
